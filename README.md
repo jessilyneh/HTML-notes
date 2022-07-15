@@ -1,7 +1,7 @@
 # HTML-notes
 <p>This repository focuses on my advanced HTML study notes</p>
 
-    <h1>Text Format</h1>
+## Text Format
 
 <h2>Headlines</h2>
 
@@ -20,39 +20,33 @@
 
 <h2>Bold and Strong</h2>
 
-<p>Da mesma forma, a tag <b> acrescenta distinção visual e a tag <strong> serve para enfase de alertas ou avisos</p>
+<p>Da mesma forma, a tag  &lt;b&gt; acrescenta distinção visual e a tag &lt;strong&gt; serve para enfase de alertas ou avisos</p>
 
 <h2>Lists</h2>
 
 <dl>
     <dt>unordered List</dt>
     <dd>lista que não precisa seguir ordenação.
-        <code>
             <ul>
                 <li>unordered item</li>
                 <li>unordered item</li>
                 <li>unordered item</li>
-            </ul>
-        </code>    
+            </ul>  
     </dd>
     <dt>ordered List</dt>
     <dd>lista ordenada de alguma forma.
-        <code>
             <ol>
                 <li>ordered item</li>
                 <li>ordered item</li>
                 <li>ordered item</li>
             </ol>
-        </code>
     </dd>
     <dt>definition List</dt>
-    <dd>Lista tipo key:value, com um <dt> definition term e um <dd> definition description.
-        <code>
+    <dd>Lista tipo key:value, com um  &lt;dt&gt; definition term e um &lt;dd&gt; definition description.
             <dl>
                 <dt>definition term</dt>
                 <dd>definition description</dd>
             </dl>
-        </code>
 </dl>
 
 <h2>Quotes</h2>
@@ -63,13 +57,14 @@
 <pre>
     <code>
        &lt;blockquote&gt;
-          &lt;p&gt;Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eius maiores aperiam aut tenetur animi!,<br> Eius modi necessitatibus natus enim sint vel rem accusamus excepturi! Mollitia nam dignissimos quo ea.&lt;/p&gt;
+         &lt;p&gt;Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eius maiores aperiam aut tenetur animi!.
+         Eius modi necessitatibus natus enim sint vel rem accusamus excepturi! Mollitia nam dignissimos quo ea.&lt;/p&gt;
    &lt;cite&gt; -- Ipsum Dolor &lt;/cite&gt;
        &lt;/blockquote&gt;
     </code>
 </pre>
 
-<h3>Quote marks in text</h3>
+<h3>Quote marks in text  &lt;q&gt;</h3>
 
 <p>usado para marcar citações in line</p>
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <q>Reiciendis eius maiores aperiam aut tenetur animi!</q></p>
@@ -77,22 +72,19 @@
 <h2>Time</h2>
 <p>Transforma qualquer data em um formato que o navegador (máquina) consegue entender</p>
 
-<code>
-    <time datetime="2022-07-15">15 de julho de 2022</time>
-    <time datetime="23:00">11:00 p.m.</time>
-    <time datetime="2022-07-13">2 dias atrás</time>
-    <time datetime="23:00-06:00">11:00 no Canadá</time>
-    <time datetime="2022-07-15T23:00">Quinta, 15 de julho as 23h</time>
-
-</code>
-</body>
-</html>
+<pre>
+    &lt;time datetime="2022-07-15"&gt;15 de julho de 2022 &lt;/time&gt;
+    &lt;time datetime="23:00"&gt;11:00 p.m. &lt;/time&gt;
+    &lt;time datetime="2022-07-13"&gt;2 dias atrás &lt;/time&gt;
+    &lt;time datetime="23:00-06:00"&gt;11:00 no Canadá &lt;/time&gt;
+    &lt;time datetime="2022-07-15T23:00"&gt;Quinta, 15 de julho as 23h &lt;/time&gt;
+</pre>
 
 <h2>Code, &lt; , &gt; and pre</h2>
 <pre>
     <code>
         &lt;code&gt;
-            &lt;p&gt;Para acrescentar cores em um texto, podemos usar  &lt;code&gt;{color:red} &lt;/code&gt;&lt;/p&gt;
+            &lt;p&gt;Para acrescentar cores em um texto, podemos usar &lt;code&gt;{color:red} &lt;/code&gt;&lt;/p&gt;
         &lt;/code&gt;
     </code>
 </pre>
