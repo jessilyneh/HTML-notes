@@ -77,7 +77,7 @@
     &lt;time datetime="2022-07-15T23:00"&gt;Quinta, 15 de julho as 23h &lt;/time&gt;
 </pre>
 
-<h2>Code, &lt; , &gt; and pre</h2>
+<h2>Code, &lt; and &gt;</h2>
 <pre>
     <code>
         &lt;code&gt;
