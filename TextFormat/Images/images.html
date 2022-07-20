@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+<body>
+    <h1>Imagens responsivas</h1>
+    <h2>Mude o tamanho da tela para ver as imagens se alterarem</h2>
+    </body>
+    <br>
+    <h3>jeito 1</h3>
+    <picture>
+        <source media="(min-width:650px)" srcset="https://www.popsci.com/uploads/2022/05/31/lythrum-salicaria-purple-loosestrife-flowers.jpg?auto=webp&width=1440&height=1080">
+        <source media="(min-width:465px)" srcset="https://classic.exame.com/wp-content/uploads/2016/09/size_960_16_9_primeira-flor-cultivada-no-espaco-20-de-janeiro-de-2016.jpg?quality=70&strip=info&w=960">
+        <img src="https://i.pinimg.com/originals/ca/37/99/ca3799b605d4ce727d5c3a15576f1de5.jpg" alt="Flowers" style="width:auto;">
+      </picture>
+    <h3>jeito 2</h3>
+    <img src="https://i.pinimg.com/originals/ca/37/99/ca3799b605d4ce727d5c3a15576f1de5.jpg" alt="flores" width="480" height="auto"
+    srcset="https://i.pinimg.com/originals/ca/37/99/ca3799b605d4ce727d5c3a15576f1de5.jpg 2x,
+    https://i.pinimg.com/originals/ca/37/99/ca3799b605d4ce727d5c3a15576f1de5.jpg 3x">
+</body>
+</html>
