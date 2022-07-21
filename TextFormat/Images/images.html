@@ -13,13 +13,20 @@
     <br>
     <h3>jeito 1</h3>
     <picture>
-        <source media="(min-width:650px)" srcset="https://www.popsci.com/uploads/2022/05/31/lythrum-salicaria-purple-loosestrife-flowers.jpg?auto=webp&width=1440&height=1080">
-        <source media="(min-width:465px)" srcset="https://classic.exame.com/wp-content/uploads/2016/09/size_960_16_9_primeira-flor-cultivada-no-espaco-20-de-janeiro-de-2016.jpg?quality=70&strip=info&w=960">
-        <img src="https://i.pinimg.com/originals/ca/37/99/ca3799b605d4ce727d5c3a15576f1de5.jpg" alt="Flowers" style="width:auto;">
+        <source media="(max-width:540px)" srcset="img/img-480.png">
+        <source media="(min-width:1092px)" srcset="img/img-w960.png">
+        <img src="img/img-480.png" alt="Flowers" style="width: auto">
       </picture>
     <h3>jeito 2</h3>
-    <img src="https://i.pinimg.com/originals/ca/37/99/ca3799b605d4ce727d5c3a15576f1de5.jpg" alt="flores" width="480" height="auto"
-    srcset="https://i.pinimg.com/originals/ca/37/99/ca3799b605d4ce727d5c3a15576f1de5.jpg 2x,
-    https://i.pinimg.com/originals/ca/37/99/ca3799b605d4ce727d5c3a15576f1de5.jpg 3x">
+    <img src="img/img-480.png" alt="flores" width="auto" height="auto"
+    srcset="img/img-480.png 480w,
+            img/img-w960.png 960w,
+            img/img-w1440.png 1440w,
+            img/img-w1920.png 1920w"
+    sizes="(max-width:480px) 240px,
+            (max-width:960px) 480px,
+            (max-width:1440px) 690px,
+            1920px"
+            >
 </body>
 </html>
