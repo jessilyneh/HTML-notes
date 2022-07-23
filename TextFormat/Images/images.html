@@ -11,13 +11,7 @@
     <h2>Mude o tamanho da tela para ver as imagens se alterarem</h2>
     </body>
     <br>
-    <h3>jeito 1</h3>
-    <picture>
-        <source media="(max-width:540px)" srcset="img/img-480.png">
-        <source media="(min-width:1092px)" srcset="img/img-w960.png">
-        <img src="img/img-480.png" alt="Flowers" style="width: auto">
-      </picture>
-    <h3>jeito 2</h3>
+    <h3>Usando mais de uma foto, com as propriedades srcset e sizes, da tag img:</h3>
     <img src="img/img-480.png" alt="flores" width="auto" height="auto"
     srcset="img/img-480.png 480w,
             img/img-w960.png 960w,
@@ -28,5 +22,16 @@
             (max-width:1440px) 690px,
             1920px"
             >
+    <h2>Usando a tag picture</h2>
+    <picture>
+        <source media="(min-width:600px)" srcset="img/img-w960.png">
+        <source srcset="img/img-480.png">
+        <img src="img/img-480.png" alt="Flowers" width="auto" height="auto">
+      </picture>
+    <h2>Usando figcaption e a tag figure</h2>
+    <figure>
+      <img src="img/img-480.png" width="480" height="360" alt="cogumelos">
+      <figcaption>Cogumelos claros sob luzes rosa e fundo azul</figcaption>
+    </figure>
 </body>
 </html>
