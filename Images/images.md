@@ -6,7 +6,7 @@
 
 <pre>
 <code>
-<img src="" alt="" width="" height="">
+&lt;img src="" alt="" width="" height="&gt;
 </code>
 </pre>
 
@@ -14,7 +14,7 @@
 <p>O atributo srcset oferece ao browser escolhas de tamanho de imagem que se adaptam melhor, evintando carregamento desnecessario. Neste exemplo, o w fornece o pixel measurement, no lugar de colocarmos 2x, 3x, saindo de um resolution-based para um srcset width-based. Desa forma, conseguimos especificar o width de origem da imagem</p>
 <pre>
 <code>
-   <img src="img/img-480.png" alt="flores" width="auto" height="auto"
+  &lt;img src="img/img-480.png" alt="flores" width="auto" height="auto"
     srcset="img/img-480.png 480w,
             img/img-w960.png 960w,
             img/img-w1440.png 1440w,
@@ -23,7 +23,7 @@
             (max-width:960px) 480px,
             (max-width:1440px) 690px,
             1920px"
-            >
+            &gt
 </code>
 </pre>
 
