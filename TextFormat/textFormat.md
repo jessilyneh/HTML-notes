@@ -50,6 +50,11 @@
 
 <h3>Blockquote</h3>
 <p>usado para blocos de texto</p>
+       <blockquote>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eius maiores aperiam aut tenetur animi!.
+         Eius modi necessitatibus natus enim sint vel rem accusamus excepturi! Mollitia nam dignissimos quo ea.</p>
+   <cite> -- Ipsum Dolor </cite>
+       </blockquote>
 
 <pre>
     <code>
