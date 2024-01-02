@@ -90,3 +90,13 @@
         &lt;/code&gt;
     </code>
 </pre>
+
+<h2>Superscripts, subscripts and small text</h2>
+<p>Superscripts: A tag &lt;sub&gt; em HTML é usada para exibir um texto como sobrescrito, que aparece metade acima da linha de base normal e é renderizado usando um tamanho de texto menor</p>
+<p>exemplo: H<sub>2</sub>O</p>
+
+<pre>
+    <code>
+         &lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
+    </code>
+</pre>
