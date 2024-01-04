@@ -111,3 +111,18 @@
          &lt;p&gt;A área compreende 25m&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
     </code>
 </pre>
+
+<h2>Fórmulas Matemáticas</h2>
+<p></p>Se voce precisa criar formulas complexas, pode usar o MathML, que é uma linguagem de marcação matemática baseada em XML, sendo renderizado em navegadores que tenham suporte.
+Para exibir expressões matemáticas no GitHub usando MathML, você pode usar a sintaxe do LaTeX, colocando entre $ o conteúdo desejado.</p>
+
+<p>Exemplo: Para exibir a equação quadrática $ax^2 + bx + c = 0$, você pode usar a fórmula:</p>
+
+$x = \frac{{-b \pm \sqrt{{b^2 - 4ac}}}}{{2a}}$
+
+<p>O código:</p>
+<pre>
+    <code>
+         $x = \frac{{-b \pm \sqrt{{b^2 - 4ac}}}}{{2a}}$
+    </code>
+</pre>
