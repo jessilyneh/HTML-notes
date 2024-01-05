@@ -1,5 +1,5 @@
 # HTML-notes
-<p>This repository focuses on my advanced HTML study notes</p>
+<p>Esse repositório tem anotações e arquivos de estudo nos temas:</p>
 
 - [Audio](./Audio/audio.md)
 - [Image](./Images/images.md)
