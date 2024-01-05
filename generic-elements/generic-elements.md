@@ -17,14 +17,14 @@
     </code>
   </pre>
   
-<h2> &lt;spam&gt;</h2>
+<h2> &lt;span&gt;</h2>
 <p>Utilizada para edição inline (em linha) de um elemento, como por exemplo, aplicar estilização para uma frase em outro idioma. </p>
 
   <pre>
     <code>
     &lt;div class="container"&gt;
       &lt;p&gtLorem ipsum dolor sit amet, consectetur adipiscing elit.
-       &lt;spam class="subtitle"&gt;Pellentesque habitant morbi &lt;/spam&gt; tristique senectus et netus et malesuada fames ac turpis egestas.</ &lt;/p&gt;
+       &lt;span class="subtitle"&gt;Pellentesque habitant morbi &lt;/span&gt; tristique senectus et netus et malesuada fames ac turpis egestas.</ &lt;/p&gt;
     &lt;/div&gt;
     </code>
   </pre>
