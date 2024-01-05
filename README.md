@@ -1,8 +1,8 @@
 # HTML-notes
 <p>This repository focuses on my advanced HTML study notes</p>
 
-- [Audio](https://github.com/jessilyneh/HTML-notes/blob/main/Audio/audio.md)
-- [Image](https://github.com/jessilyneh/HTML-notes/blob/main/Images/images.md)
-- [Navigation](https://github.com/jessilyneh/HTML-notes/blob/main/Navigation/Navigation.md)
-- [Text format](https://github.com/jessilyneh/HTML-notes/blob/main/TextFormat/textFormat.md)
-- [Generic Elements](https://github.com/jessilyneh/HTML-notes/blob/main/generic-elements/generic-elements.md)
+- [Audio](./Audio/audio.md)
+- [Image](./Images/images.md)
+- [Navigation](./Navigation/Navigation.md)
+- [Text format](./TextFormat/textFormat.md)
+- [Generic Elements](./generic-elements/generic-elements.md)
