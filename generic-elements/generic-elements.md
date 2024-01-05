@@ -6,7 +6,7 @@
 </ul>
 <p>Tanto a div como spam fazem a mesma coisa: NADA. Servem apenas para envolver elementos.</p>
 <h2> &lt;div&gt;</h2>
-<p>Utilizada para blocos de código, como por exemplo, aplicar uma determinada estilização definida no CSS, usando "class".</p>
+<p>Utilizada como container genérico, para facilitar a aplicação de estilização ou ação, usando "class" ou "id" para identificação.</p>
 
   <pre>
     <code>
