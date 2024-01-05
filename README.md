@@ -5,3 +5,4 @@
 - [Image](https://github.com/jessilyneh/HTML-notes/blob/main/Images/images.md)
 - [Navigation](https://github.com/jessilyneh/HTML-notes/blob/main/Navigation/Navigation.md)
 - [Text format](https://github.com/jessilyneh/HTML-notes/blob/main/TextFormat/textFormat.md)
+- [Generic Elements](https://github.com/jessilyneh/HTML-notes/blob/main/generic-elements/generic-elements.md)
